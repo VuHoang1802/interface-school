@@ -37,9 +37,9 @@ const lessonTime = [
 export default function Lesson() {
   return (
     <div className="section rounded-[12px]  bg-[#FDF9F3] p-4">
-      <div className="flex gap-2 align-middle my-3">
+      <div className="flex gap-2 items-center my-3">
         <Calendar />
-        <h1 className="font-bold">Bạn đã đặt lịch tham gia 4 buổi học</h1>
+        <h1 className="font-bold text-xl">Bạn đã đặt lịch tham gia 4 buổi học</h1>
       </div>
       <div className="grid grid-cols-3 gap-3 ">
         <div className=" rounded-2xl bg-white p-4 border-1 border-[#EDF2F7] drop-shadow-md">

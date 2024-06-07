@@ -163,7 +163,7 @@ export default function LessonDetailInfoItem() {
                 }
               })}
           </div>
-          <div className="py-4  bg-gradient-to-b from-[#E9E0D5] to-[rgba(233, 224, 213, 0)]">
+          <div className="py-4 mt-6  bg-gradient-to-b from-[#E9E0D5] to-[rgba(233, 224, 213, 0)]">
             <div className="mx-auto">
               <div className="flex items-center gap-2 justify-center relatives after:absolute after:left-[52%] after:text-[#fff] after:bg-[#A89F96] after:rounded-full after:px-4 after:py-1 after:content-['Kế_Tiếp']">
                 <Lock />
@@ -175,9 +175,9 @@ export default function LessonDetailInfoItem() {
                 <h3 className="font-bold">Cấp độ 2: Elementary</h3>
                 <Question />
               </div>
-              <div className="text-center my-4 mx-auto bg-white w-[30%] p-4 rounded-lg">
+              <div className="text-center my-4 mx-auto font-semibold bg-white w-[30%] p-4 rounded-lg">
                 <h3 className="my-4">Tham gia bài kiểm tra để học vượt cấp</h3>
-                <button className="rounded-xl text-white px-4 py-2 bg-[#FF6D03]">Học Vượt</button>
+                <button className="rounded-xl  text-white px-4 py-2 bg-[#FF6D03]">Học Vượt</button>
               </div>
             </div>
           </div>
